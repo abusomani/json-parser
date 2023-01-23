@@ -107,6 +107,7 @@ from .decoder import JSONDecoder, JSONDecodeError
 from .encoder import JSONEncoder
 import codecs
 
+
 _default_encoder = JSONEncoder(
     skipkeys=False,
     ensure_ascii=True,
